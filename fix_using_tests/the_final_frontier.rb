@@ -1,5 +1,5 @@
 # don't forget to add: require 'pry'
-
+require.pry
 
 def generate_star_date
   (rand(100000) + 400000) / 10.0
@@ -15,3 +15,5 @@ def engage
    state_log(generate_star_date)
   
 end
+
+binding.pry
