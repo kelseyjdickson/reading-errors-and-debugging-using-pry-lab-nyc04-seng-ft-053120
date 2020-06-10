@@ -13,7 +13,8 @@ end
 def engage
   date = generate_star_date
    state_log(generate_star_date)
-  
+  binding.pry
 end
 
-binding.pry
+
+engage
